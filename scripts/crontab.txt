@@ -1,0 +1,3 @@
+# 블로그 집필 하니스 자동 실행
+# 매주 화(2), 목(4), 토(6), 일(0) 오전 8시
+0 8 * * 2,4,6,0 /bin/bash scripts/auto_post.sh >> /home/user/Investment-mindset/.cron.log 2>&1
